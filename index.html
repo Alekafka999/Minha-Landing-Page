@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Alessandra Sanches — Assessoria Financeira</title>
+  <meta name="description"
+    content="Assessoria de Investimentos - Alessandra Kafka. Investimentos, planejamento e atendimento personalizado." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index-styles.css">
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="site-header">
+      <div class="logo" aria-hidden="true"><small>ASK</small></div>
+      <div class="header-info">
+        <h1>Alessandra Kafka — Assessoria de Investimentos</h1>
+        <p>Planejamento Financeiro | Investimentos | Previdência | Gestão de Carteira | Educação Financeira</p>
+      </div>
+    </header>
+
+    <main>
+      <!-- SIDEBAR / PERFIL -->
+      <aside class="profile card" aria-label="Perfil da assessora">
+        <a class="photo" href="#" aria-hidden="true">
+          <img src="img/EunaB3.jpg" alt="Foto de Alessandra Kafka no púlpito onde o martelo é batido na B3!">
+        </a>
+        <div class="bio">
+          Olá! Sou Alessandra Kafka, assessora de investimentos certificada pela <a
+            href="https://credenciamento.ancord.org.br/index.html" target="_blank">Ancord</a> e sócia da <a
+            href="https://www.cashwise.com.br/" target="_blank">Cash Wise</a>. Tenho
+          foco em estratégias personalizadas e planejamento para atingir metas financeiras. Trabalho também com Educação
+          Financeira.
+        </div>
+
+        <div class="contact-list">
+          <div class="contact-item"><span class="badge">Assessora</span></div>
+          <div class="contact-item">📞 <a href="tel:+5535997320084" style="color:inherit;text-decoration:none">+55 (35)
+              99732 00 84</a></div>
+          <div class="contact-item">✉️ <a href="mailto:alessandra.kafka@cashwise.com.br"
+              style="color:inherit;text-decoration:none">alessandra.kafka@cashwise.com.br</a></div>
+          <div class="contact-item">🌐 Site: <a href="#"
+              style="color:var(--accent);text-decoration:none;margin-left:6px">http://www.cashwise.com.br</a></div>
+        </div>
+
+        <div style="margin-top:12px" aria-hidden="true">
+          <div class="small">Atendimento</div>
+          <div class="small">Seg-Sex • 9h — 17h30</div>
+        </div>
+      </aside>
+
+  
+      <!-- CONTEÚDO PRINCIPAL -->
+      <section>
+        <div class="card" id="about">
+          <h2 style="margin-top:0">Sobre</h2>
+          <p class="small" style="margin-bottom:8px">
+            Ofereço soluções em alocação de ativos, acompanhamento de carteira, planejamento previdenciário e
+            consultoria para investidores iniciantes e experientes.
+          </p>
+          <p>A Cash Wise possue:</p>
+
+          <div class="stats" role="list" aria-label="Estatísticas">
+            <div class="stat" role="listitem">
+              <strong>+2.000</strong><span>Clientes atendidos</span>
+            </div>
+            <div class="stat" role="listitem">
+              <strong>R$ 400M+</strong><span>Ativos sob aconselhamento</span>
+            </div>
+            <div class="stat" role="listitem">
+              <strong>10+</strong><span>Anos de experiência</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" id="services">
+          <h2 style="margin-top:0">Serviços</h2>
+          <div class="services-grid" aria-hidden="true">
+            <div class="service">
+              <h4>Planejamento Financeiro</h4>
+              <p>Avaliação de metas, fluxo de caixa e estratégias para alcançar objetivos pessoais e profissionais.</p>
+            </div>
+            <div class="service">
+              <h4>Gestão de Carteira</h4>
+              <p>Construção e rebalanceamento com foco em diversificação e tolerância ao risco.</p>
+            </div>
+            <div class="service">
+              <h4>Investimentos</h4>
+              <p>Renda fixa, multimercados e fundos - seleção e acompanhamento.</p>
+            </div>
+            <div class="service">
+              <h4>Previdência e Sucessão</h4>
+              <p>Planejamento tributário e soluções de longo prazo.</p>
+            </div>
+          </div>
+
+          <div class="cta-row">
+            <button class="btn" id="agendarBtn">Agende uma conversa</button>
+            <button class="btn ghost" id="pdfBtn">Baixar apresentação</button>
+          </div>
+        </div>
+
+        <div class="card" id="contact">
+          <h2 style="margin-top:0">Contato</h2>
+          <form class="contact-form">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Enviar mensagem</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="small footer-first-line">© 2024 Alessandra Kafka - Educação Financeira | Assessoria Financeira. CashWise | XP. Todos os direitos reservados.</p>
+      <p class="small">A Cash Wise AI S/S, inscrita sob o CNPJ: 47.969.945/0001-80 é uma empresa de Assessoria de Investimento
+        devidamente registrada na Comissão de Valores Mobiliários na forma da Resolução CVM 178/23 (“Sociedade”), que
+        mantém contrato de distribuição de produtos financeiros com a XP Investimentos Corretora de Câmbio, Títulos e
+        Valores Mobiliários S.A. (“XP”) e pode, por conta e ordem dos seus clientes, operar no mercado de capitais
+        segundo a legislação vigente.
+
+        Na forma da legislação da CVM, o Assessor de Investimento não pode administrar ou gerir o patrimônio de
+        investidores. O investimento em ações é um investimento de risco e rentabilidade passada não é garantia de
+        rentabilidade futura. Na realização de operações com derivativos existe a possibilidade de perdas superiores aos
+        valores investidos, podendo resultar em significativas perdas patrimoniais A Sociedade poderá exercer atividades
+        complementares relacionadas aos mercados financeiro, securitário, de previdência e capitalização, desde que não
+        conflitem com a atividade de assessoria de investimentos, podendo ser realizada por meio da pessoa jurídica
+        acima descrita ou por meio de pessoa jurídica terceira. Todas as atividades são prestadas mantendo a devida
+        segregação e em cumprimento ao quanto previsto nas regras da CVM ou de outros órgãos reguladores e
+        autorreguladores. Para informações e dúvidas sobre produtos, contate seu assessor de investimentos. Para
+        reclamações, contate a Ouvidoria da XP pelo telefone 0800 722 3730.
+
+        As informações contidas nesta página têm caráter meramente informativo, não constituem e nem devem ser
+        interpretadas como solicitações de compra ou venda, ofertas ou recomendações de qualquer ativo financeiro,
+        investimentos, sugestões de alocação ou adoção de estratégias por parte dos destinatários.
+
+        Possui alguma dúvida sobre como a Cash Wise realiza o tratamento dos seus Dados Pessoais? Quer compreender
+        melhor a nossa Política de Privacidade ou nossos Termos e Condições de Uso? Então entre em contato conosco
+        através do e-mail <a href="mailto:rafael.costa@cashwise.com.br" style="color:#F5D445;text-decoration:none">rafael.costa@cashwise.com.br</a>
+      </p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
