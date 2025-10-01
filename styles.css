@@ -3,8 +3,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
+    
 }
+
+
+/* Exemplo de uso da fonte Roboto, ajuste conforme necessário: */
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
 
 body {
   background: #000;

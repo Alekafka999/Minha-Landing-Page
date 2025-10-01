@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (agendarBtn) {
         agendarBtn.addEventListener('click', function() {
             // Redirecionar para WhatsApp ou abrir modal de agendamento
-            const whatsappUrl = 'https://wa.me/5535997320084?text=Olá! Gostaria de agendar uma conversa sobre Educação Financeira | Assessoria de Investimentos.';
+            const whatsappUrl = 'https://wa.me/5535997320084?text= Olá! Gostaria de agendar uma conversa sobre Educação Financeira | Assessoria de Investimentos.';
             window.open(whatsappUrl, '_blank');
         });
     }
@@ -15,8 +15,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const pdfBtn = document.getElementById('pdfBtn');
     if (pdfBtn) {
         pdfBtn.addEventListener('click', function() {
-            // Aqui você pode adicionar o link para download do PDF
-            alert('Funcionalidade de download será implementada em breve!');
+            // Baixar o arquivo kafka.pdf
+            const link = document.createElement('a');
+            link.href = 'kafka.pdf';
+            link.download = 'kafka.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
         });
     }
 
